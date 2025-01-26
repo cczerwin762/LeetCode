@@ -1,3 +1,4 @@
+from listNode import ListNode
 '''
 Prompt:
 Given head, the head of a linked list, determine if the linked list has a cycle in it.
@@ -6,11 +7,6 @@ There is a cycle in a linked list if there is some node in the list that can be 
 
 Return true if there is a cycle in the linked list. Otherwise, return false.
 '''
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
 
 def hasCycle(head):
     """
