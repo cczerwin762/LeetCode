@@ -37,3 +37,6 @@ def search(nums, target):
                 else:
                     r = m-1
         return False
+
+if __name__ == "__main__":
+    print('hello world')
