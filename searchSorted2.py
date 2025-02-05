@@ -39,4 +39,6 @@ def search(nums, target):
         return False
 
 if __name__ == "__main__":
-    print('hello world')
+    nums = [4,5,6,0,1,2,4,4]
+    target = 1
+    print(search(nums,target))
