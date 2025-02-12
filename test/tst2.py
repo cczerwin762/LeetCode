@@ -5,6 +5,6 @@ print([[None,None]]*3)'''
 matrix = [] 
 matrix.append(["x",1])
 matrix.append(["y",2])
-print(matrix[-1][1])
+print(matrix[0][1])
 for i in range(9,0):
     print(i)
